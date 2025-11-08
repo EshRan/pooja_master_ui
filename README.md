@@ -1,16 +1,47 @@
-# pooja_master_ui
+# 🪔 Pooja Master UI
 
-A new Flutter project.
+A Flutter-based cross-platform application for managing and ordering Pooja-related services and items.  
+Supports Android, iOS, and Web platforms.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+This project is built with **Flutter**, a UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📋 Prerequisites
+
+Before running this app, make sure you have the following installed:
+
+### 🔧 Flutter SDK
+Install Flutter by following the official guide:  
+👉 [Flutter Installation Guide](https://docs.flutter.dev/get-started/install)
+
+After installation, verify your setup:
+```bash
+flutter --version
+flutter doctor -v
+
+
+# List all connected devices
+flutter devices
+
+# List available Android emulators
+flutter emulators
+
+# Launch a specific emulator
+flutter emulators --launch <emulator_id>
+
+# List all available Android Virtual Devices (AVDs)
+emulator -list-avds
+
+# Run the app on a specific connected device
+flutter run -d <device_id>
+
+# Run the app when only one device/emulator is connected
+flutter run
+
+# Run the app on Chrome (for Web)
+flutter run -d chrome
