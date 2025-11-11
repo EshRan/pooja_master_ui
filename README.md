@@ -24,6 +24,9 @@ After installation, verify your setup:
 flutter --version
 flutter doctor -v
 
+flutter clean
+
+flutter pub get
 
 # List all connected devices
 flutter devices
